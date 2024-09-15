@@ -4,5 +4,4 @@ stqdm
 spacy-streamlit
 spacy-transformers
 transformers
-spacy[transformers]
 spacy
