@@ -52,7 +52,7 @@ def main():
         num_words = st.number_input("Enter the desired summary length (number of words):", min_value=10, step=1)
         
         if raw_text and num_words:
-            summarizer = pipeline('summarization')
+            summarizer = pipeline('summarization', framework='pt')
             summary = summarizer(raw_text, min_length=num_words, max_length=50)
             summary_text = json.loads(json.dumps(summary[0]))['summary_text']
             st.write(f"Summary: {summary_text.capitalize()}")
