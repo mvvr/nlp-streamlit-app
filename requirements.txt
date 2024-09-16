@@ -4,4 +4,3 @@ pandas
 transformers
 spacy
 spacy-streamlit
-spacy thinc
