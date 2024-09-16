@@ -1,5 +1,4 @@
 
-```markdown
 # NLP Streamlit Web App
 
 ## Overview
