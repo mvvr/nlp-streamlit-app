@@ -1,7 +1,7 @@
 streamlit==1.26.0
 stqdm==0.0.4
-pandas==2.1.1
 transformers==4.34.0
-spacy==3.6.1
+torch==2.0.1
+spacy==3.6.0
 spacy-streamlit==1.0.3
-thinc==8.1.11
+pandas==2.1.1
